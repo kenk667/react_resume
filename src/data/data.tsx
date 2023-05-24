@@ -13,7 +13,7 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/wedding_night.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Home of KenKato.me',
+  description: "A place for saying what's beyond my resume",
 };
 
 /**
@@ -69,18 +69,24 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Hello, I'm Ken Kato.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+      With over a decade pushing the boundaries of what's possible and breaking down barriers across technology verticals from Finance to Defense. 
+      My passion for innovation has led me to launch the first software factory ever in the US Government, 
+      where I led the architectural decisions that became the blueprint for cloud operations within the Department of Defense. 
+      I am constantly seeking new ways to improve, and I thrive on the challenge of finding creative solutions to complex problems. 
+      My entrepreneurial spirit drives me to constantly identify new opportunities and create value for my customers and clients.
       </p>
+      <p>
+      <strong className="text-stone-100">I am always excited to tackle new challenges and create a positive impact that benefits as many people as possible. 
+        Whether it's through my technological entrepreneurship or mentoring the next generation of innovators, 
+        I am committed to using my skills and talents to make the world a better place.</strong></p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+      Outside of my professional achievements, I am a husband, a self-taught watchmaker, an animal lover, cyclist, competitive axe thrower, 
+      and semi-professional tinkerer. <strong className="text-stone-100">I love spending time with my family and indulging in my hobbies. 
+      I believe in giving back to the community through civic technology initiatives</strong>.
       </p>
     </>
   ),
