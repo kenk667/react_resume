@@ -14,16 +14,17 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import profilepic from '../images/cropped_axe_head.jpg';
 import porfolioImage1 from '../images/portfolio/kesselrun-logo.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import porfolioImage3 from '../images/portfolio/DoD.png';
+import porfolioImage4 from '../images/portfolio/US-WhiteHouse-Logo.svg.png';
+import porfolioImage5 from '../images/portfolio/pif.png';
+import porfolioImage6 from '../images/portfolio/NASA_logo.svg.webp';
 import porfolioImage7 from '../images/portfolio/black_pearl_logo_640.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import testimonialImage from '../images/testimonial.webp';
+//import paper_resume from './KenKatoResume.pdf'
 //import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 //import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/wedding_night.webp';
@@ -73,25 +74,21 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      With over a decade pushing the boundaries of what's possible and breaking down barriers across technology verticals from Finance to Defense. 
-      My passion for innovation has led me to launch the first software factory ever in the US Government, 
-      where I led the architectural decisions that became the blueprint for cloud operations within the Department of Defense. 
-      I am constantly seeking new ways to improve, and I thrive on the challenge of finding creative solutions to complex problems. 
-      My entrepreneurial spirit drives me to constantly identify new opportunities and create value for my customers and clients.
+      For over a decade, I’ve been at the forefront of leading transformative and sustainable change in highly regulated industries by breaking down barriers along the way. 
+      My technical expertise, unique insights, clear ideas, and sound judgment allow me to navigate complex business landscapes with confidence and precision. 
+      Working in dynamic and challenging environments has honed my ability to excel in identifying opportunities for growth and innovation.
       </p>
-      <p>
-      <strong className="text-stone-200">I am always excited to tackle new challenges and create a positive impact that benefits as many people as possible. 
-        Whether it's through my technological entrepreneurship or mentoring the next generation of innovators, 
-        I am committed to using my skills and talents to make the world a better place.</strong></p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      Outside of my professional achievements, I am a husband, a self-taught watchmaker, an animal lover, cyclist, competitive axe thrower, 
-      and semi-professional tinkerer. <strong className="text-stone-100">I love spending time with my family and indulging in my hobbies. 
-      I believe in giving back to the community through civic technology initiatives</strong>.
-      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg"> 
+      Throughout my journey, I’ve focused on cultivating strong leadership skills and fostering collaborative relationships across diverse teams. 
+      By promoting open communication and nurturing a shared vision, I am able to rally teams toward achieving ambitious goals. 
+      <strong className="text-stone-100"> I firmly believe that by empowering individuals and fostering a culture of collaboration, 
+      we can drive meaningful change and achieve remarkable outcomes.</strong></p>
+      
     </>
   ),
   actions: [
     {
+      //href: paper_resume,
       href: '/assets/resume.pdf',
       text: 'Resume',
       primary: true,
@@ -110,9 +107,10 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I’m driven by a relentless passion for pushing boundaries and making a positive impact. 
+  I thrive on the thrill of taking calculated risks, embracing challenges, and inspiring others to think creatively and strategically. 
+  Outside of my professional achievements, I cherish being a husband, a self-taught watchmaker, an animal lover, a cyclist, 
+  a competitive axe thrower, and a tinkerer. Additionally, I strongly believe in giving back to the community through my involvement in civic technology initiatives.`,
   aboutItems: [
     {label: 'Location', text: 'Washington, DC', Icon: MapIcon},
     //{label: 'Age', text: '29', Icon: CalendarIcon},
