@@ -11,22 +11,22 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-//import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-//import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/wedding_night.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import profilepic from '../images/cropped_axe_head.jpg';
+import porfolioImage1 from '../images/portfolio/kesselrun-logo.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+import porfolioImage7 from '../images/portfolio/black_pearl_logo_640.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/cropped_axe_head.jpg';
 import testimonialImage from '../images/testimonial.webp';
+//import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+//import TwitterIcon from '../components/Icon/TwitterIcon';
+import heroImage from '../images/wedding_night.webp';
 import {
   About,
   ContactSection,
@@ -287,10 +287,58 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    company: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    location: 'Junior bug fixer',
+    date: 'October 2019 ~ February 2022',
+    company: 'Black Pearl, Department of the Navy',
+    title: 'Director & Founder',
+    location: 'Washington, DC',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'October 2016 ~ September 2019',
+    company: 'Kessel Run, US Air Force',
+    title: 'Enterprise Architect, Cloud & Platform',
+    location: 'Boston, MA',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'January 2015 ~ September 2019',
+    company: 'Mitre',
+    title: 'Sr. DevOps & Cybersecurity Engineer',
+    location: 'Bedford & Boston, MA',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'February 2014 ~ January 2015',
+    company: 'Massachusetts Institute of Technology Lincoln Labs',
+    title: 'Sr. DevOps & Cybersecurity Engineer',
+    location: 'Lexington, MA',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'January 2012 ~ February 2016',
+    company: 'Ken Kato Consulting',
+    title: 'Founder & CEO',
+    location: 'Somerville, MA',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
